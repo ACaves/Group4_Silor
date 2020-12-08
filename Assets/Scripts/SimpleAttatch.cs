@@ -46,6 +46,7 @@ public class SimpleAttatch : MonoBehaviour
             hand.DetachObject(gameObject);
             hand.HoverUnlock(interactable);
             hiddenItem.SetActive(false);
+            ObjectFound.scoreValue += 1;
             //add item counter here
         }
                
