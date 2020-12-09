@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1391092066883788168}
   - component: {fileID: 1868131674065343575}
   - component: {fileID: 7326212827730208893}
-  - component: {fileID: 7619668007636451518}
-  - component: {fileID: 145071914256311821}
   - component: {fileID: 6120771765216557269}
+  - component: {fileID: 437400446717826471}
+  - component: {fileID: 5105372380893873872}
   m_Layer: 0
   m_Name: Cabinet03doorR
   m_TagString: Untagged
@@ -115,54 +115,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!59 &7619668007636451518
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391092066881782600}
-  m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.58, z: -0.07}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 7.5188503, y: 1.1240342, z: 21.841301}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 1
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 1
-  m_Limits:
-    min: 74.43402
-    max: 219.19284
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!65 &145071914256311821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391092066881782600}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.31109208, y: 1.4817213, z: 0.066030465}
-  m_Center: {x: 0.14907154, y: -0.54375404, z: -0.0045444765}
 --- !u!114 &6120771765216557269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +167,54 @@ MonoBehaviour:
   highlightOnHover: 1
   hideHighlight: []
   hoverPriority: 0
+--- !u!65 &437400446717826471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391092066881782600}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31109208, y: 1.4817213, z: 0.066030465}
+  m_Center: {x: 0.14907059, y: -0.54375404, z: -0.0045439997}
+--- !u!59 &5105372380893873872
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391092066881782600}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.1, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 7.606206, y: 1.8726743, z: 21.842175}
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 2
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 1
+  m_Limits:
+    min: 81.73827
+    max: 239.76965
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &1391092066881782602
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +226,8 @@ GameObject:
   - component: {fileID: 1391092066882019178}
   - component: {fileID: 1391092066882789194}
   - component: {fileID: 1391092066883788170}
+  - component: {fileID: 1339362196073057259}
+  - component: {fileID: 6321857554830634002}
   m_Layer: 0
   m_Name: Cabinet03doorL
   m_TagString: Untagged
@@ -296,6 +298,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1339362196073057259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391092066881782602}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.31306472, y: 1.4817213, z: 0.06603045}
+  m_Center: {x: -0.15024231, y: -0.54375404, z: -0.004544458}
+--- !u!54 &6321857554830634002
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391092066881782602}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1391092066881782606
 GameObject:
   m_ObjectHideFlags: 0
