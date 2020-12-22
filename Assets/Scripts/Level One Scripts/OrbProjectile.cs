@@ -7,18 +7,16 @@ public class OrbProjectile : MonoBehaviour
     
     public SpawnThrowableObject objectSpawner;
 
-
-    public void OnTriggerEnter(Collider other)//destroys the throwable object once the object enters a trigger
+    public void Start()
     {
-        if (other.gameObject.tag == "Enemy")
-        {
-            objectSpawner.ActivateOrbInHand();
-            Destroy(gameObject);
-
-            
-        }
+        objectSpawner.ActivateOrbInHand();
 
        
-
     }
+
+    //IEnumerator DeactivateThisObject()
+    //{
+    //   yield return new WaitForSeconds(5);
+    //    this.objectSpawner.SetActive(false);
+    //}
 }

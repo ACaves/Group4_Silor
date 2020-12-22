@@ -25,9 +25,11 @@ public class SpawnThrowableObject : MonoBehaviour
             newOrb.objectSpawner = this;
             DeactivateOrbInHand();
             Debug.Log("throwable object spawned");
-        
+        StartCoroutine(DeactivateSpawnedProjectile());
 
         Debug.Log("spawn object function has been called");
+
+        
     }
 
     public void ActivateOrbInHand()
@@ -49,6 +51,13 @@ public class SpawnThrowableObject : MonoBehaviour
         }
     }
 
+    IEnumerator DeactivateSpawnedProjectile()
+    {
+        yield return new WaitForSeconds(10);
+        //find gameobject to deactivate    
+
+
+    }
 
     //public void Fire()
     //{
