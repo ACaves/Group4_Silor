@@ -4,6 +4,10 @@
    "app_key" : "application.generated.unity.silor.exe",
    "bindings" : {
       "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
@@ -185,11 +189,6 @@
                "path" : "/user/hand/left/input/trigger"
             },
             {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/left/input/menu"
-            },
-            {
                "inputs" : {
                   "click" : {
                      "output" : "/actions/default/in/mainmenu"
@@ -214,6 +213,9 @@
                   }
                },
                "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
                "path" : "/user/hand/right/input/joystick"
             },
             {
@@ -226,12 +228,10 @@
                   }
                },
                "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
                "path" : "/user/hand/right/input/joystick"
-            },
-            {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/right/input/menu"
             },
             {
                "inputs" : {
@@ -270,9 +270,13 @@
                "path" : "/user/hand/right/input/x"
             },
             {
-               "inputs" : {},
-               "mode" : "none",
-               "path" : "/user/hand/right/input/a"
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/mainmenu"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/bumper"
             },
             {
                "inputs" : {
@@ -281,11 +285,15 @@
                   }
                },
                "mode" : "button",
-               "path" : "/user/hand/right/input/b"
+               "path" : "/user/hand/right/input/bumper"
             }
          ]
       },
       "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
          "sources" : [
             {
                "inputs" : {
