@@ -25,8 +25,8 @@ public class NymphSpawner : MonoBehaviour
         while (enemyCount < 10)
         {
             nymphPrefab.SetActive(true);
-            xPos = Random.Range(20, 35);
-            zPos = Random.Range(5, 8);
+            xPos = Random.Range(20, 25);
+            zPos = Random.Range(5, 6);
             yPos = Random.Range(0, 4);
             Instantiate(nymphPrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity);
             yield return new WaitForSeconds(10);
