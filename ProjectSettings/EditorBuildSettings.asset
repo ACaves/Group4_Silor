@@ -6,11 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level 1 GreyBox.unity
-    guid: 3b3ae8ba8aa223d41847852142213d37
-  - enabled: 1
     path: Assets/Scenes/UI Scenes/Main Menu Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/UI Scenes/Instructions.unity
+    guid: 44594227a8637ab48bf8ad94b66a0311
+  - enabled: 1
+    path: Assets/Scenes/UI Scenes/About Silor.unity
+    guid: 2a8c15b93283b244287689e338f6c5d9
+  - enabled: 1
+    path: Assets/Scenes/Level One.unity
+    guid: 758a02ae64a745b488a2372b847dc342
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: b7e5dde678ac75a499dd05ba757e041d
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 4974f3c18fee55e479d71c2c96cf5cea
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: bf4b740a9c10a5c46944297c73f94415, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c1bdeec46b243b44097617807ea68b67, type: 2}
