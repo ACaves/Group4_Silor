@@ -45,16 +45,21 @@ public class SpawnThrowableObject : MonoBehaviour
     private void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (SteamVR_Actions.default_GrabGrip.GetStateDown(SteamVR_Input_Sources.Any))//accesses input from steam vr using grab grip option to spawn throwable projectile
         
         {
             SpawnObject();
 =======
         if (SteamVR_Actions.default_GrabGrip.GetStateDown(SteamVR_Input_Sources.LeftHand))//accesses input from steam vr using grab grip option to spawn throwable projectile
+=======
+        if (SteamVR_Actions.default_GrabGrip.GetStateDown(SteamVR_Input_Sources.Any))//accesses input from steam vr using grab grip option to spawn throwable projectile
+>>>>>>> parent of b183771... Level One Shooter Script Started
         
         {
             SpawnObject();
         }
+<<<<<<< HEAD
 
         if (SteamVR_Actions.default_GrabGrip.GetStateDown(SteamVR_Input_Sources.RightHand))//accesses input from steam vr using grab grip option to spawn throwable projectile
 
@@ -62,6 +67,8 @@ public class SpawnThrowableObject : MonoBehaviour
             SpawnObject();
 >>>>>>> parent of 234f046... Level One movement script edited
         }
+=======
+>>>>>>> parent of b183771... Level One Shooter Script Started
     }
 
     IEnumerator DeactivateSpawnedProjectile()
