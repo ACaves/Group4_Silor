@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.silor.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Silor\\Silor\\Group4_Silor\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "D:\\Anne\\Group4_Silor\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Silor [Testing]"
