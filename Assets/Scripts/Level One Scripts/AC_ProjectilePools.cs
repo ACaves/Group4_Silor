@@ -35,9 +35,11 @@ public class AC_ProjectilePools : Pool
     {
         a_Projectile = Create<AC_Projectiles>(prefab, count);
     }
-    public void SetAllProjectiles()
+    public void SetAllProjectiles(bool value)
     {
-        foreach (AC_Projectiles projectile in a_Projectile)
-            projectile.SetInactive();
+        foreach(AC_Projectiles projectile in a_Projectile)
+        {
+            //to do
+        }
     }
 }    
