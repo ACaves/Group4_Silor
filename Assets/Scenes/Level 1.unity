@@ -2222,7 +2222,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: 90d51e0e6bbbd394b90e6bc55dbf9326, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -4526,7 +4526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &955679280
 PrefabInstance:
@@ -7452,7 +7452,7 @@ Transform:
   - {fileID: 1224070962}
   - {fileID: 1472701112}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1548298227
 PrefabInstance:
@@ -9976,6 +9976,7 @@ Transform:
   - {fileID: 1306353866}
   - {fileID: 1560802520}
   - {fileID: 1949657506}
+  - {fileID: 396761314}
   - {fileID: 924695662}
   - {fileID: 1566196955}
   - {fileID: 1183188330}
@@ -9983,11 +9984,9 @@ Transform:
   - {fileID: 3449805215778366122}
   - {fileID: 959467470}
   - {fileID: 922419475}
-  - {fileID: 1044790663}
-  - {fileID: 1558174012}
   - {fileID: 870431059}
   - {fileID: 1151644898}
-  - {fileID: 396761314}
+  - {fileID: 1044790663}
   - {fileID: 139288524}
   - {fileID: 1823307408}
   - {fileID: 620837958}
@@ -9995,6 +9994,7 @@ Transform:
   - {fileID: 949752950}
   - {fileID: 1785512193}
   - {fileID: 105639189}
+  - {fileID: 1558174012}
   - {fileID: 66411889}
   - {fileID: 2145407257}
   - {fileID: 627870467}
@@ -10010,7 +10010,7 @@ Transform:
   - {fileID: 2018357928}
   - {fileID: 1892972144}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1999748844
 PrefabInstance:
