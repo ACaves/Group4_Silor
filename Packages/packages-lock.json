@@ -132,6 +132,15 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.visualeffectgraph": {
+      "version": "8.2.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "8.2.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.arsubsystems": {
       "version": "3.1.3",
       "depth": 1,
@@ -146,7 +155,7 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.subsystemregistration": "1.0.6"
+        "com.unity.subsystemregistration": "1.0.5"
       },
       "url": "https://packages.unity.com"
     },
