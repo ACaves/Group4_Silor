@@ -174,34 +174,13 @@ MonoBehaviour:
     - model: {fileID: 4}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 5}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 34}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 36}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 142}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 56}
       id: 0
       isStickyNote: 0
     - model: {fileID: 104}
       id: 0
       isStickyNote: 0
     - model: {fileID: 7}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 106}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 117}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 31}
       id: 0
       isStickyNote: 0
     - model: {fileID: 111}
@@ -225,28 +204,10 @@ MonoBehaviour:
     - model: {fileID: 76}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 78}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 98}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 158}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 101}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 61}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 72}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 73}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 157}
       id: 0
       isStickyNote: 0
     - model: {fileID: 126}
@@ -272,13 +233,7 @@ MonoBehaviour:
     - model: {fileID: 173}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 190}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 174}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 193}
       id: 0
       isStickyNote: 0
     - model: {fileID: 185}
@@ -297,15 +252,6 @@ MonoBehaviour:
       id: 0
       isStickyNote: 0
     - model: {fileID: 187}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 221}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 201}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 195}
       id: 0
       isStickyNote: 0
   stickyNoteInfos: []
@@ -787,7 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -2258,7 +2204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -6152,7 +6098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
@@ -7831,7 +7777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d78581a96eae8bf4398c282eb0b098bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
