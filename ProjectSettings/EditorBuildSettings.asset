@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/UI Scenes/Main Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/UI Scenes/Instructions.unity
+    path: Assets/Scenes/UI Scenes/Level Select.unity
     guid: 44594227a8637ab48bf8ad94b66a0311
   - enabled: 1
     path: Assets/Scenes/UI Scenes/About Silor.unity
     guid: 2a8c15b93283b244287689e338f6c5d9
+  - enabled: 1
+    path: Assets/Scenes/UI Scenes/Instructions.unity
+    guid: f876b608e747a2a4b95926be27a3b339
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 758a02ae64a745b488a2372b847dc342
