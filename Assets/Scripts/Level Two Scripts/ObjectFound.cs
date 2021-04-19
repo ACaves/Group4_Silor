@@ -8,7 +8,7 @@ public class ObjectFound : MonoBehaviour
 {
 
     public static int scoreValue=0;
-    Text score;
+    public Text score;
     
     // Start is called before the first frame update
     void Start()
@@ -19,12 +19,12 @@ public class ObjectFound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = "Score" + 10f;
+        score.text = " " + 1f;
 
-        if (scoreValue>=160f)
-        {
-            SceneManager.LoadScene("Main Menu Scene");
-        }
+        //if (scoreValue>=16f)
+        //{
+        //    SceneManager.LoadScene("Main Menu Scene");
+        //}
     }
 
 

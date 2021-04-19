@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class OrbProjectile : MonoBehaviour
 {
-    
-    public SpawnThrowableObject objectSpawner;
+    private bool collided;
 
-    public void Start()
+    private void OnCollisionEnter(Collision co)
     {
-        objectSpawner.ActivateOrbInHand();
-
-       
+        if (co.gameObject.tag !="projectile"&& co.gameObject.tag!= "Player" && !collided)
+        {
+            collided = true;
+            Destroy(gameObject);
+        }
     }
-
-    //IEnumerator DeactivateThisObject()
-    //{
-    //   yield return new WaitForSeconds(5);
-    //    this.objectSpawner.SetActive(false);
-    //}
 }

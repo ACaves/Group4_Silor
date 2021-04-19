@@ -15,6 +15,7 @@ public class NymphDestroy : MonoBehaviour
     {
         if (other.gameObject.tag == "projectile")
         {
+
             Destroy(this.gameObject);
             
             //add score when able with UI see level 2 scripts box
