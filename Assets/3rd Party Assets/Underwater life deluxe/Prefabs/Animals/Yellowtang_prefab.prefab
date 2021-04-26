@@ -70,6 +70,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4199028302884646}
   - component: {fileID: 95031340412861106}
+  - component: {fileID: 1797393454618096220}
   m_Layer: 0
   m_Name: Yellowtang_prefab
   m_TagString: Untagged
@@ -112,6 +113,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1797393454618096220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106387401300592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1130600215200198
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4490874199208410}
   - component: {fileID: 137915331327840494}
+  - component: {fileID: 5364803391337507440}
   m_Layer: 0
   m_Name: Box2_0
   m_TagString: Untagged
@@ -459,6 +473,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06764732, y: -0.13762748, z: -0.008180387}
     m_Extent: {x: 0.20114852, y: 0.3600129, z: 0.14762273}
   m_DirtyAABB: 0
+--- !u!64 &5364803391337507440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731645624769270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: bf4edd8c22a2fa8449cefeb1723a16d0, type: 3}
 --- !u!1 &1771325184955800
 GameObject:
   m_ObjectHideFlags: 0

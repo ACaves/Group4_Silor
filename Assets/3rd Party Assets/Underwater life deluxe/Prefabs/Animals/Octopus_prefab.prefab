@@ -2480,6 +2480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4452537338714722}
   - component: {fileID: 95967527817494840}
+  - component: {fileID: -3990703142644933190}
   m_Layer: 0
   m_Name: Octopus_prefab
   m_TagString: Untagged
@@ -2539,6 +2540,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-3990703142644933190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739802490283200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745501092681402
 GameObject:
   m_ObjectHideFlags: 0
@@ -3286,6 +3299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4393949699471838}
   - component: {fileID: 137269877423159224}
+  - component: {fileID: 8023271151666336996}
   m_Layer: 0
   m_Name: octopus_exp6
   m_TagString: Untagged
@@ -3436,6 +3450,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.31901643, y: 0.13693549, z: 0.0013196915}
     m_Extent: {x: 0.4135196, y: 0.4091208, z: 0.3952425}
   m_DirtyAABB: 0
+--- !u!64 &8023271151666336996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925322897525100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 375360c56b726d04fb17c8a775c80a07, type: 3}
 --- !u!1 &1926861473657784
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - Enemy
   - Projectile
+  - Waypoint
   layers:
   - Default
   - TransparentFX

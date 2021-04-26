@@ -101,6 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4406541389744724}
   - component: {fileID: 95606512172679588}
+  - component: {fileID: -3521209601880475552}
   m_Layer: 0
   m_Name: Orangespine_unicron_fish_prefab
   m_TagString: Untagged
@@ -143,6 +144,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-3521209601880475552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045811944559828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1087548795877328
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4111978100930782}
   - component: {fileID: 137117329521286380}
+  - component: {fileID: 6144095653649499041}
   m_Layer: 0
   m_Name: Cylinder01_0
   m_TagString: Untagged
@@ -337,6 +351,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.09162323, y: -0.19755141, z: -0.0055971183}
     m_Extent: {x: 0.14251183, y: 0.35136187, z: 0.112965554}
   m_DirtyAABB: 0
+--- !u!64 &6144095653649499041
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323400475076216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c59970d785f555e47bcf30f0c95ed85b, type: 3}
 --- !u!1 &1497765724528214
 GameObject:
   m_ObjectHideFlags: 0

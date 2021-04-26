@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4414522613082168}
   - component: {fileID: 137850045483297782}
+  - component: {fileID: 8819254910816285066}
   m_Layer: 0
   m_Name: Cylinder01
   m_TagString: Untagged
@@ -100,6 +101,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.08374294, y: -0.18432719, z: -0.0055898763}
     m_Extent: {x: 0.196706, y: 0.34749275, z: 0.11206634}
   m_DirtyAABB: 0
+--- !u!64 &8819254910816285066
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024751550595930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: af2d47d2c87db7940adfe5050693654c, type: 3}
 --- !u!1 &1065625994089758
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4824876032485328}
   - component: {fileID: 95219467452408546}
+  - component: {fileID: 5504042371282117850}
   m_Layer: 0
   m_Name: Emperor_angelfish_prefab
   m_TagString: Untagged
@@ -647,6 +663,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5504042371282117850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911605819255016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1995959577494690
 GameObject:
   m_ObjectHideFlags: 0

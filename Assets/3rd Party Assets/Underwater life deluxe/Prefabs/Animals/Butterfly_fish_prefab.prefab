@@ -382,6 +382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4143832734063814}
   - component: {fileID: 95855510854307566}
+  - component: {fileID: 2697807031577179031}
   m_Layer: 0
   m_Name: Butterfly_fish_prefab
   m_TagString: Untagged
@@ -424,6 +425,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2697807031577179031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820572774563482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1870407034648626
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4316129396048016}
   - component: {fileID: 137486930591888506}
+  - component: {fileID: 8613761728843857426}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -478,13 +492,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919713044151474}
-  m_LocalRotation: {x: 0.5233188, y: 0.47553906, z: 0.5233188, w: -0.47553906}
-  m_LocalPosition: {x: 0.00000051051416, y: 0.00073851104, z: 0.0010757446}
-  m_LocalScale: {x: 0.010175017, y: 0.010175017, z: 0.010175017}
+  m_LocalRotation: {x: -0.47274733, y: -0.4825028, z: -0.5626428, w: 0.47658592}
+  m_LocalPosition: {x: -0.00080179, y: -0.00175, z: -0.0031956}
+  m_LocalScale: {x: 0.010182027, y: 0.010182027, z: 0.010182027}
   m_Children: []
   m_Father: {fileID: 4143832734063814}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -83.495, y: 39.507, z: -495.008}
 --- !u!137 &137486930591888506
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -552,6 +566,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.07441154, y: -0.09346014, z: -0.0070101246}
     m_Extent: {x: 0.3091779, y: 0.41415226, z: 0.114202686}
   m_DirtyAABB: 0
+--- !u!64 &8613761728843857426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919713044151474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a0fe4ff569f6fda4294cd770c64fdc36, type: 3}
 --- !u!1 &1937639498552176
 GameObject:
   m_ObjectHideFlags: 0
