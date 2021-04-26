@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class AssetSpawner : MonoBehaviour
 {
-    public GameObject assetObject;
+    [SerializeField] private GameObject flockfishPrefab;
+    [SerializeField] private int flockSize;
+    [SerializeField] private Vector3 spawnBounds;
 
-    // Start is called before the first frame update
-    void Start()
+    public GameObject [] allUnits{ get; set;}
+
+    private void start()
     {
-        assetObject.SetActive(false);
+        GenerateUnits();
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void GenerateUnits()
     {
-        
+        allUnits = new GameObject[flockSize];
+        for (int i=0; i<flockSize; i++)
+        {
+            var randomVector = UnityEngine.Random.insideUnitSphere;
+            randomVector = new Vector3(randomVector.x * spawnBounds.x, randomVector.y * spawnBounds.y, randomVector.z * spawnBounds.z);
+            var spawnPosition = transform.position + randomVector;
+            var rotation = Quaternion.Euler(0, UnityEngine.Random.Range(0, 360), 0);
+            allUnits[i]
+        }
     }
 }
