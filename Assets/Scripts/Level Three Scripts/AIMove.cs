@@ -17,6 +17,7 @@ public class AIMove : MonoBehaviour
     private Animator m_animator;
     private float m_speed;
     private float m_scale;
+   
 
     private Collider m_collider;
     
@@ -28,6 +29,8 @@ public class AIMove : MonoBehaviour
         m_animator = GetComponent<Animator>();
 
         m_scale = Random.Range(0f, 1f);
+       
+
         SetUpNPC();
     }
 
@@ -35,6 +38,7 @@ public class AIMove : MonoBehaviour
     void SetUpNPC()
     {
         float m_scale = Random.Range(0f, 1f);
+       
         transform.localScale += new Vector3(m_scale * 1.5f, m_scale, m_scale);
         if (transform.GetComponent<Collider>()!=null && transform.GetComponent<Collider>().enabled == true)
         {
