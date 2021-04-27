@@ -9,6 +9,10 @@ TagManager:
   - Enemy
   - Projectile
   - Waypoint
+  - Helmet
+  - Hammer
+  - Sword
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -20,7 +24,7 @@ TagManager:
   - 
   - Enemy
   - Player
-  - 
+  - PickUps
   - 
   - 
   - 
