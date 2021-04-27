@@ -33,6 +33,8 @@ public class KrakenScript : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
+    public int currentEnemyHealth;
+
     public GameObject krakenEnemy;
     
     public HealthScript healthScript;
