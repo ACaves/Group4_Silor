@@ -444,6 +444,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5005141991077081533}
   - component: {fileID: 5005141991069884195}
+  - component: {fileID: 1842380276608235842}
   m_Layer: 0
   m_Name: Kraken_Legacy
   m_TagString: Untagged
@@ -460,7 +461,7 @@ Transform:
   m_GameObject: {fileID: 5005141991077306973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 5005141991077081311}
   - {fileID: 5005141991077082691}
@@ -486,6 +487,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1842380276608235842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5005141991077306973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c4092ebf6ad0348a49afe663f92f99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nymphEnemy: {fileID: 5005141991077306973}
 --- !u!1 &5005141991077306975
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5005141991077082691}
   - component: {fileID: 5005141991074128353}
+  - component: {fileID: 1517086641051461397}
   m_Layer: 0
   m_Name: SK_Kraken
   m_TagString: Untagged
@@ -541,8 +556,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5005141991077306979}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.018304, y: -0.01, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 5005141991077081533}
   m_RootOrder: 1
@@ -567,7 +582,7 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 1f0b19a754160c64daa925988a3dae7d, type: 2}
-  - {fileID: 2100000, guid: 42ff1decfae57c4418e09f68c9bc6ea6, type: 2}
+  - {fileID: 2100000, guid: e99efda7c07d1d9488b3849b48cf1e4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -773,6 +788,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.2540772, y: -7.1947, z: 1.0190258}
     m_Extent: {x: 7.8396053, y: 13.237156, z: 9.280453}
   m_DirtyAABB: 0
+--- !u!64 &1517086641051461397
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5005141991077306979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 6432d76399cee0045ad8320272c45cc4, type: 3}
 --- !u!1 &5005141991077309569
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,7 +2244,7 @@ Transform:
   m_GameObject: {fileID: 5005141991077309695}
   m_LocalRotation: {x: -0.7071068, y: 1.0046944e-14, z: 1.0046944e-14, w: 0.7071068}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 5005141991077081255}
   m_Father: {fileID: 5005141991077081533}

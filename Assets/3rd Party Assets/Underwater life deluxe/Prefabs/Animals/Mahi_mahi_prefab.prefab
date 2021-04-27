@@ -195,6 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4131001751951390}
   - component: {fileID: 137302132286022812}
+  - component: {fileID: 6496405829025222481}
   m_Layer: 0
   m_Name: Cylinder01_0
   m_TagString: Untagged
@@ -285,6 +286,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.07601218, y: -0.15710792, z: -0.0052205846}
     m_Extent: {x: 0.14806654, y: 0.35551432, z: 0.09787179}
   m_DirtyAABB: 0
+--- !u!64 &6496405829025222481
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233037655994724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8659d065344599c4cb8497c7da9d805b, type: 3}
 --- !u!1 &1315241361437528
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4762712129163312}
   - component: {fileID: 95482793961479280}
+  - component: {fileID: 1838844551814358787}
   m_Layer: 0
   m_Name: Mahi_mahi_prefab
   m_TagString: Untagged
@@ -369,6 +385,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1838844551814358787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425027144221698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1486949169000702
 GameObject:
   m_ObjectHideFlags: 0

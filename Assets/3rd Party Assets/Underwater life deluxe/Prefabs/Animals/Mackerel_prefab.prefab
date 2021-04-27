@@ -321,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4590658642912836}
   - component: {fileID: 95356449763829802}
+  - component: {fileID: 121552554962109109}
   m_Layer: 0
   m_Name: Mackerel_prefab
   m_TagString: Untagged
@@ -363,6 +364,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &121552554962109109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502900601577816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1600840037346904
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4287723694162124}
   - component: {fileID: 137350791002504044}
+  - component: {fileID: 4007472820999567983}
   m_Layer: 0
   m_Name: mackerel_exp7
   m_TagString: Untagged
@@ -461,6 +475,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.07656786, y: -0.17103806, z: -0.0064916424}
     m_Extent: {x: 0.09236398, y: 0.3258665, z: 0.06784937}
   m_DirtyAABB: 0
+--- !u!64 &4007472820999567983
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600840037346904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 00cc15fd33c3ca242a20e4046daaeb46, type: 3}
 --- !u!1 &1601878037844718
 GameObject:
   m_ObjectHideFlags: 0

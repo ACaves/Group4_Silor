@@ -104,6 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4436936433699650}
   - component: {fileID: 95414745719147956}
+  - component: {fileID: -348781081786762482}
   m_Layer: 0
   m_Name: Clownfish_prefab
   m_TagString: Untagged
@@ -146,6 +147,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-348781081786762482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260883131845032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268443ab5f209844b854fe68d77e835f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1282678377762028
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4722541768607704}
   - component: {fileID: 137154123389211242}
+  - component: {fileID: 1789947800700439316}
   m_Layer: 0
   m_Name: Cylinder01_0
   m_TagString: Untagged
@@ -308,6 +322,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.06711082, y: -0.15656918, z: -0.003934942}
     m_Extent: {x: 0.18183951, y: 0.32266164, z: 0.14660752}
   m_DirtyAABB: 0
+--- !u!64 &1789947800700439316
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337921497027876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 5580cf5ef157e8a4899a4c3a24123c2e, type: 3}
 --- !u!1 &1343316807173334
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955241789959316030}
   - component: {fileID: 1955241789955847580}
+  - component: {fileID: 6010830404015258410}
   m_Layer: 0
   m_Name: SK_Kraken
   m_TagString: Untagged
@@ -257,6 +258,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.2540772, y: -7.1947, z: 1.0190258}
     m_Extent: {x: 7.8396053, y: 13.237156, z: 9.280453}
   m_DirtyAABB: 0
+--- !u!64 &6010830404015258410
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955241789959026206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 6432d76399cee0045ad8320272c45cc4, type: 3}
 --- !u!1 &1955241789959026208
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955241789959316928}
   - component: {fileID: 1955241789951626078}
+  - component: {fileID: 2754863384043171401}
   m_Layer: 0
   m_Name: Kraken_PBR
   m_TagString: Untagged
@@ -283,10 +299,11 @@ Transform:
   m_GameObject: {fileID: 1955241789959026208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1955241789959316642}
   - {fileID: 1955241789959316030}
+  - {fileID: 4697230288425582203}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -309,6 +326,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2754863384043171401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955241789959026208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02123c84f9f4d5241bc3c0c19a7124b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  enemySpeed: 0
+  maxEnemySpeed: 10
+  targetPlayer: {fileID: 0}
+  accelerationTime: 60
+  maxHealth: 100
+  currentHealth: 0
+  wayPoints: []
+  krakenEnemy: {fileID: 0}
 --- !u!1 &1955241789959026210
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,4 +6235,34 @@ Transform:
   - {fileID: 1955241789959316892}
   m_Father: {fileID: 1955241789959316896}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2551643295743791903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4697230288425582203}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697230288425582203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551643295743791903}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.01, y: 2.8286707, z: -5.08}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 1955241789959316928}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
