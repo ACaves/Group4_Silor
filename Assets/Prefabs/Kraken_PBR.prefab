@@ -555,7 +555,7 @@ MonoBehaviour:
   currentHealth: 0
   currentEnemyHealth: 0
   krakenEnemy: {fileID: 2500392679285789588}
-  krakenAnimator: {fileID: 2500392679276310250}
+  krakenAudio: {fileID: 7765148165266444648}
   healthScript: {fileID: 0}
 --- !u!1 &2500392679285789590
 GameObject:

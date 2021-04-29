@@ -8,14 +8,14 @@ public class Orb : MonoBehaviour
     public GameObject orbPrefab;
     public Rigidbody orbRb;
     
-    public AudioSource krakenAudio;
+    //public AudioSource krakenAudio;
 
 
     // Start is called before the first frame update
     void Start()
     {
         
-        krakenAudio.GetComponent<AudioSource>();
+        //krakenAudio.GetComponent<AudioSource>();
         //Rigidbody orbRb = GetComponent<Rigidbody>();
 
         //orbRb.velocity = transform.forward * speed;
@@ -31,7 +31,7 @@ public class Orb : MonoBehaviour
             Score.scoreValue += 1;
             
             Debug.Log("Enemy Hit");
-            krakenAudio.Play();
+            //krakenAudio.Play();
             
             Destroy(hitInfo.gameObject);
         }

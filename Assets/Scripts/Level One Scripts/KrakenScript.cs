@@ -8,7 +8,7 @@ public class KrakenScript : MonoBehaviour
 
     //animator
    
-    public float enemySpeed= 3f;
+    public float enemySpeed= 1f;
     public float maxEnemySpeed = 10f;
     public Transform targetPlayer;
 
@@ -34,18 +34,22 @@ public class KrakenScript : MonoBehaviour
 
     public GameObject krakenEnemy;
 
-    public Animator krakenAnimator;
+    public AudioSource krakenAudio;
     
-    public HealthScript healthScript;
+   
+    private void Awake()
+    {
+       StartCoroutine(EnemySpawnTime());
 
+    }
     private void Start()
     {
-          
+        krakenAudio.GetComponent<AudioSource>();
         minSpeed = enemySpeed;
         time = 0;
         currentHealth = health;
         randomSpot = Random.Range(0, wayPoints.Length);
-        StartCoroutine(EnemySpawnTime());
+        
     }
 
     private void Update()
@@ -58,44 +62,17 @@ public class KrakenScript : MonoBehaviour
 
     }
 
-
-    void Attack()
-    {
-        krakenAnimator.SetTrigger("Attack");
-        
-    }
-
-
-
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag=="Player")
+        if (other.gameObject.tag=="projectile")
         {
 
-            krakenAnimator.Play("death");
+           krakenAudio.Play();
         }
                
-
-
-        //    //if (other.gameObject.tag=="Enemy")
-        //    //{
-        //    //    animator.Play("Attack");
-        //    //}
-        //}
-
-
-        
-  
     }
 
-    //    void Die()
-    //{
-
-
-    //    //Destroy(this.gameObject);
-    //    AddHealth(20);
-
+   
     IEnumerator EnemySpawnTime()
     {
         yield return new WaitForSeconds(5);
@@ -103,14 +80,7 @@ public class KrakenScript : MonoBehaviour
         transform.position -= transform.forward * enemySpeed * Time.deltaTime;
         time += Time.deltaTime;
 
-
-
     }
-
-    public void AddHealth(int regainHealth)
-    {
-        currentHealth += regainHealth;
-        healthScript.SetMaxHealth(regainHealth);
-    }
+      
 }
 

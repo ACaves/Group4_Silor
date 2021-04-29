@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2783962423360393611}
   - component: {fileID: 4749387604790809446}
   - component: {fileID: 842876683070379383}
+  - component: {fileID: 7137675663041303188}
   m_Layer: 0
   m_Name: Drawer_Big1
   m_TagString: Untagged
@@ -201,6 +202,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7137675663041303188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &127552
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +231,7 @@ GameObject:
   - component: {fileID: 5569627343588378071}
   - component: {fileID: 6097262700880616032}
   - component: {fileID: 6406949634376324301}
+  - component: {fileID: 3668851067402757166}
   m_Layer: 0
   m_Name: Drawer1
   m_TagString: Untagged
@@ -454,6 +468,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3668851067402757166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &130962
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +496,7 @@ GameObject:
   - component: {fileID: 5324538034212673401}
   - component: {fileID: 3822267395230958024}
   - component: {fileID: 6235639049768314676}
+  - component: {fileID: 6100818662925116567}
   m_Layer: 0
   m_Name: Drawer_Big2
   m_TagString: Untagged
@@ -655,6 +682,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6100818662925116567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &143678
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +710,7 @@ GameObject:
   - component: {fileID: 7585875818184722359}
   - component: {fileID: 2855746493798492671}
   - component: {fileID: 6855719030285020060}
+  - component: {fileID: 1314642403508105005}
   m_Layer: 0
   m_Name: Drawer_Med2
   m_TagString: Untagged
@@ -856,6 +896,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1314642403508105005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &151878
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +924,7 @@ GameObject:
   - component: {fileID: 8261086806746980975}
   - component: {fileID: 5624641553272546848}
   - component: {fileID: 3984169150159582832}
+  - component: {fileID: 5744023588212624236}
   m_Layer: 0
   m_Name: Drawer4
   m_TagString: Untagged
@@ -1056,6 +1109,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5744023588212624236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &157228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1480,7 @@ GameObject:
   - component: {fileID: 1542490693429033687}
   - component: {fileID: 5837359382570317599}
   - component: {fileID: 1799769663847761247}
+  - component: {fileID: 1114193841296525487}
   m_Layer: 0
   m_Name: Drawer2
   m_TagString: Untagged
@@ -1651,6 +1717,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1114193841296525487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &172978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,6 +1917,7 @@ GameObject:
   - component: {fileID: 7793136174773626273}
   - component: {fileID: 8242342822371725910}
   - component: {fileID: 5457488035325093493}
+  - component: {fileID: 6370088379160702295}
   m_Layer: 0
   m_Name: Drawer3
   m_TagString: Untagged
@@ -2075,6 +2154,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6370088379160702295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &181850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2091,6 +2182,7 @@ GameObject:
   - component: {fileID: 2134307239629828021}
   - component: {fileID: 1335805415492303530}
   - component: {fileID: 4489971976520159811}
+  - component: {fileID: 6203821266123812314}
   m_Layer: 0
   m_Name: Drawer_Med3
   m_TagString: Untagged
@@ -2276,6 +2368,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6203821266123812314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &183256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2775,6 +2879,7 @@ GameObject:
   - component: {fileID: 323952023660117019}
   - component: {fileID: 2045861607973164551}
   - component: {fileID: 5379133555501217061}
+  - component: {fileID: 7961777214454228505}
   m_Layer: 0
   m_Name: Drawer_Med1
   m_TagString: Untagged
@@ -2960,6 +3065,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7961777214454228505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &173121618971588153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,6 +3086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2722891889796676149}
+  - component: {fileID: 7460709927875350015}
   m_Layer: 0
   m_Name: EGO_drawer2
   m_TagString: Untagged
@@ -2993,6 +3111,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7460709927875350015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173121618971588153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &647825012888264665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,6 +3281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1805258694491768440}
+  - component: {fileID: 5016676367456869351}
   m_Layer: 0
   m_Name: EGO_MedDrawer3
   m_TagString: Untagged
@@ -3175,6 +3306,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5016676367456869351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754527578275315438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &971900009044859115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3623,6 +3766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8323854706151764553}
+  - component: {fileID: 2149064478636763840}
   m_Layer: 0
   m_Name: EGO_drawer01
   m_TagString: Untagged
@@ -3647,6 +3791,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2149064478636763840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900168182975678653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2053070481899687097
 GameObject:
   m_ObjectHideFlags: 0
@@ -5078,6 +5234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3014054117163933633}
+  - component: {fileID: 1097251254692806321}
   m_Layer: 0
   m_Name: EGO_bigdrawer2
   m_TagString: Untagged
@@ -5102,6 +5259,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097251254692806321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5582810801788284099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5591026560459473075
 GameObject:
   m_ObjectHideFlags: 0
@@ -5848,6 +6017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4745907187355143352}
+  - component: {fileID: 1908771786524812214}
   m_Layer: 0
   m_Name: EGO_Drawer3
   m_TagString: Untagged
@@ -5872,6 +6042,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1908771786524812214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6679702459848740485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6711398109684284554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6298,6 +6480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3534249308881179222}
+  - component: {fileID: 2763983010692990696}
   m_Layer: 0
   m_Name: EGO_MedDrawer1
   m_TagString: Untagged
@@ -6322,6 +6505,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2763983010692990696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7421582729608480177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7596750337563038877
 GameObject:
   m_ObjectHideFlags: 0
@@ -6651,6 +6846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 165335231956894486}
+  - component: {fileID: 3232378710103136359}
   m_Layer: 0
   m_Name: EGO_BigDrawer1
   m_TagString: Untagged
@@ -6675,6 +6871,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3232378710103136359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8095483554904884336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8299981873422637642
 GameObject:
   m_ObjectHideFlags: 0
@@ -6855,6 +7063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6334328416965343251}
+  - component: {fileID: 5966602154607309714}
   m_Layer: 0
   m_Name: EGO_MedDrawer2
   m_TagString: Untagged
@@ -6879,6 +7088,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5966602154607309714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361583616452987795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8385977322304418903
 GameObject:
   m_ObjectHideFlags: 0
@@ -7082,6 +7303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9142868686174907326}
+  - component: {fileID: 871494663729122766}
   m_Layer: 0
   m_Name: EGO_Drawer4
   m_TagString: Untagged
@@ -7106,6 +7328,18 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &871494663729122766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725687292104573933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8789271632675109056
 GameObject:
   m_ObjectHideFlags: 0
