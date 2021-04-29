@@ -8,7 +8,7 @@ public class KrakenScript : MonoBehaviour
 
     //animator
     public Animator animator;
-
+    public AudioSource krakenDeathAudio;
     public float enemySpeed= 1f;
     public float maxEnemySpeed = 10f;
     public Transform targetPlayer;
@@ -41,7 +41,7 @@ public class KrakenScript : MonoBehaviour
 
     private void Start()
     {
-        
+        krakenDeathAudio = GetComponent<AudioSource>();        
         minSpeed = enemySpeed;
         time = 0;
         currentHealth = maxHealth;
@@ -103,7 +103,7 @@ public class KrakenScript : MonoBehaviour
         animator.SetBool("IsDead", true);
         this.enabled = false;
         GetComponent<Collider>().enabled = false;
-
+        krakenDeathAudio.Play();
         AddHealth(20);
     }
 
