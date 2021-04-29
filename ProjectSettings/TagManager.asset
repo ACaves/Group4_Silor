@@ -7,7 +7,6 @@ TagManager:
   - projectile
   - FxTemporaire
   - Enemy
-  - Projectile
   - Waypoint
   - Helmet
   - Hammer

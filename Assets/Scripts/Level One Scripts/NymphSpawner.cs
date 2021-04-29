@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class NymphSpawner : MonoBehaviour
 {
-    public GameObject nymphPrefab;
-  
+    public GameObject krakenEnemyPrefab;
+   
+    public Transform targetPlayer;
+    public float enemySpeed = 2f;
+
 
     public int xPos;
     public int zPos;
@@ -24,11 +27,11 @@ public class NymphSpawner : MonoBehaviour
     {
         while (enemyCount < 10)
         {
-            nymphPrefab.SetActive(true);
+            krakenEnemyPrefab.SetActive(true);
             xPos = Random.Range(20, 25);
             zPos = Random.Range(5, 6);
             yPos = Random.Range(0, 4);
-            Instantiate(nymphPrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity);
+            Instantiate(krakenEnemyPrefab, new Vector3(xPos, yPos, zPos), Quaternion.identity);
             yield return new WaitForSeconds(10);
             enemyCount += 1;
 
@@ -40,7 +43,15 @@ public class NymphSpawner : MonoBehaviour
         }
     }
 
-    
+    private void Update()
+    {
+        transform.LookAt(targetPlayer);
+        Quaternion targetRotation = Quaternion.LookRotation(targetPlayer.transform.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 1 * Time.deltaTime);
+        transform.position += transform.forward * 1f * Time.deltaTime;
+
+        //transform.position = Vector3.MoveTowards(transform.position, targetPlayer.position, enemySpeed * Time.deltaTime);
+    }
 
 
 }

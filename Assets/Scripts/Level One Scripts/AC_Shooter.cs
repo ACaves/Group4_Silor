@@ -4,10 +4,9 @@ using UnityEngine;
 using Valve.VR;
 
 public class AC_Shooter : MonoBehaviour
-{
-    // Start is called before the first frame update
+{   // Start is called before the first frame update
     public SteamVR_ActionSet orbActions;
-    
+
     public GameObject orbPrefab;
 
     public Rigidbody orbRigidbody;
@@ -37,7 +36,7 @@ public class AC_Shooter : MonoBehaviour
         currentHealth = maxHealth;
         healthScript.SetMaxHealth(maxHealth);
         orbActions.Activate(SteamVR_Input_Sources.Any, 0, true);
-        
+
     }
 
     // Update is called once per frame
@@ -54,7 +53,7 @@ public class AC_Shooter : MonoBehaviour
             }
         }
 
-        
+
     }
 
 
@@ -71,15 +70,15 @@ public class AC_Shooter : MonoBehaviour
     void Fire()
     {
         Rigidbody projectileInstance;
-        projectileInstance=Instantiate(orbRigidbody, orbOrigin.position, orbOrigin.rotation)as Rigidbody;
+        projectileInstance = Instantiate(orbRigidbody, orbOrigin.position, orbOrigin.rotation) as Rigidbody;
         projectileInstance.AddForce(orbOrigin.forward * orbSpeed);
         Debug.Log("Cloned orb");
 
-        
+
 
     }
 
-     
+
     void SetInnactive()
     {
         Destroy(gameObject, 10f);
@@ -91,7 +90,8 @@ public class AC_Shooter : MonoBehaviour
         healthScript.SetMaxHealth(currentHealth);
     }
 
-   
+
+
 
 
 }
