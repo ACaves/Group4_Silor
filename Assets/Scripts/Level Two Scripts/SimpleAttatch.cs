@@ -8,10 +8,11 @@ public class SimpleAttatch : MonoBehaviour
 {
     private Interactable interactable;
     public GameObject hiddenItem;
-
+    public AudioSource pickUpAudio;
     // Start is called before the first frame update
     void Start()
     {
+        pickUpAudio.GetComponent<AudioSource>();
         hiddenItem.SetActive(true);
         interactable = GetComponent<Interactable>();
     }
@@ -43,6 +44,7 @@ public class SimpleAttatch : MonoBehaviour
         //Realse Object
         else if (isGrabEnding)
         {
+            pickUpAudio.Play();
             hand.DetachObject(gameObject);
             hand.HoverUnlock(interactable);
             hiddenItem.SetActive(false);
