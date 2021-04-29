@@ -12,6 +12,7 @@ TagManager:
   - Hammer
   - Sword
   - Shield
+  - PickUp
   layers:
   - Default
   - TransparentFX
