@@ -7,7 +7,10 @@ using Valve.VR.InteractionSystem;
 
 public class ItemFound : MonoBehaviour
 {
-    public GameObject[] tickPrefab;
+    public GameObject tickPrefab1;
+    public GameObject tickPrefab2;
+    public GameObject tickPrefab3;
+    public GameObject tickPrefab4;
     public Text ItemTextName;
     public GameObject itemCanvas;
     public GameObject helmetPrefab;
@@ -26,10 +29,10 @@ public class ItemFound : MonoBehaviour
     public SteamVR_Action_Boolean pickUpAction;
     private void Start()
     {
-        tickPrefab[0].SetActive(false);
-        tickPrefab[1].SetActive(false);
-        tickPrefab[2].SetActive(false);
-        tickPrefab[3].SetActive(false);
+        tickPrefab1.SetActive(false);
+        tickPrefab2.SetActive(false);
+        tickPrefab3.SetActive(false);
+        tickPrefab3.SetActive(false);
 
         helmetPrefab.SetActive(true);
         hammerPrefab.SetActive(true);
@@ -80,25 +83,25 @@ public class ItemFound : MonoBehaviour
                 if (holdingTarget.tag=="Helmet")
                 {
                     helmetPrefab.SetActive(false);
-                    tickPrefab[0].SetActive(true);
+                    tickPrefab1.SetActive(true);
                 }
 
                 else if (holdingTarget.tag == "Hammer")
                 {
                     hammerPrefab.SetActive(false);
-                    tickPrefab[1].SetActive(true);
+                    tickPrefab2.SetActive(true);
                 }
 
                 else if (holdingTarget.tag =="Sword")
                 {
                     swordPrefab.SetActive(false);
-                    tickPrefab[2].SetActive(true);
+                    tickPrefab3.SetActive(true);
                 }
 
                 else if (holdingTarget.tag == "Shield")
                 {
                     shieldPrefab.SetActive(false);
-                    tickPrefab[3].SetActive(true);
+                    tickPrefab4.SetActive(true);
                 }
             }
         }

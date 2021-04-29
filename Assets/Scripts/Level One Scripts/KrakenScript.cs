@@ -7,9 +7,8 @@ public class KrakenScript : MonoBehaviour
 {
 
     //animator
-    public Animator animator;
-
-    public float enemySpeed= 1f;
+   
+    public float enemySpeed= 3f;
     public float maxEnemySpeed = 10f;
     public Transform targetPlayer;
 
@@ -18,93 +17,94 @@ public class KrakenScript : MonoBehaviour
     private float minSpeed;
     private float time;
 
-  
-
     //attack
-    public Transform attackPoint;
+    
     public float attackRange = 0.5f;
-    public LayerMask playerLayers;
+    
     public int attackDamage = 40;
 
     //waypoints
     public Transform[] wayPoints;
     private int randomSpot;
 
-    public int maxHealth = 100;
+    public int health = 100;
     public int currentHealth;
 
     public int currentEnemyHealth;
 
     public GameObject krakenEnemy;
+
+    public Animator krakenAnimator;
     
     public HealthScript healthScript;
 
     private void Start()
     {
-        
+          
         minSpeed = enemySpeed;
         time = 0;
-        currentHealth = maxHealth;
+        currentHealth = health;
         randomSpot = Random.Range(0, wayPoints.Length);
         StartCoroutine(EnemySpawnTime());
+    }
+
+    private void Update()
+    {
+
+        krakenEnemy.transform.LookAt(targetPlayer);
+        krakenEnemy.transform.position = Vector3.MoveTowards(transform.position, targetPlayer.position, enemySpeed * Time.deltaTime);
+        enemySpeed = Mathf.SmoothStep(minSpeed, maxEnemySpeed, time / accelerationTime);
+
+
     }
 
 
     void Attack()
     {
-        animator.SetTrigger("Attack");
-        Collider[] hitEnemies=Physics.OverlapSphere(attackPoint.position, attackRange, playerLayers);
-        foreach (Collider enemy in hitEnemies)
-        {
-            TakeDamage(attackDamage);
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag =="Player")
-        Attack();
-
-    }
-    private void Update()
-    {
-
-        transform.LookAt(targetPlayer);
-        transform.position = Vector3.MoveTowards(transform.position, targetPlayer.position, enemySpeed * Time.deltaTime);
-        enemySpeed = Mathf.SmoothStep(minSpeed, maxEnemySpeed, time / accelerationTime);
-
+        krakenAnimator.SetTrigger("Attack");
         
     }
 
+
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag=="Player")
+        {
+
+            krakenAnimator.Play("death");
+        }
+               
+
+
+        //    //if (other.gameObject.tag=="Enemy")
+        //    //{
+        //    //    animator.Play("Attack");
+        //    //}
+        //}
+
+
+        
+  
+    }
+
+    //    void Die()
+    //{
+
+
+    //    //Destroy(this.gameObject);
+    //    AddHealth(20);
+
     IEnumerator EnemySpawnTime()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         Instantiate(krakenEnemy, wayPoints[randomSpot].position, Quaternion.identity);
         transform.position -= transform.forward * enemySpeed * Time.deltaTime;
         time += Time.deltaTime;
 
 
 
-    }
-
-    public void TakeDamage(int damage)
-    {
-        currentEnemyHealth -= damage;
-        animator.SetTrigger("Hurt");
-        if (currentEnemyHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        //die animation
-        animator.SetBool("IsDead", true);
-        this.enabled = false;
-        GetComponent<Collider>().enabled = false;
-
-        AddHealth(20);
     }
 
     public void AddHealth(int regainHealth)
