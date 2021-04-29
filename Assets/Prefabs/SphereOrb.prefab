@@ -126,4 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  orbPrefab: {fileID: 8780034038318220577}
   orbRb: {fileID: 939340253000642000}
+  krakenAnimator: {fileID: 5005141991069884195, guid: 9322817985de18a46980ef47133cee19, type: 3}
+  krakenAudio: {fileID: 7435593346482471425, guid: 40f8c3fc2c9d4ca49949ac56529a87e3, type: 3}

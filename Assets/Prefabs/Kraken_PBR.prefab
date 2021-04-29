@@ -518,8 +518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02123c84f9f4d5241bc3c0c19a7124b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 2500392679276310250}
-  krakenDeathAudio: {fileID: 7765148165266444648}
   enemySpeed: 3
   maxEnemySpeed: 10
   targetPlayer: {fileID: 0}
@@ -557,6 +555,7 @@ MonoBehaviour:
   currentHealth: 0
   currentEnemyHealth: 0
   krakenEnemy: {fileID: 2500392679285789588}
+  krakenAnimator: {fileID: 2500392679276310250}
   healthScript: {fileID: 0}
 --- !u!1 &2500392679285789590
 GameObject:

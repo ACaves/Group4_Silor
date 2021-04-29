@@ -33,6 +33,8 @@ public class KrakenScript : MonoBehaviour
     public int currentEnemyHealth;
 
     public GameObject krakenEnemy;
+
+    public Animator krakenAnimator;
     
     public HealthScript healthScript;
 
@@ -59,36 +61,40 @@ public class KrakenScript : MonoBehaviour
 
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        krakenAnimator.SetTrigger("Attack");
         
     }
 
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.tag == "projectile")
-    //    {
-    //        Die();
-    //        Destroy(this.gameObject);
-    //        Debug.Log("Projectile hit Kraken");
-    //    }
 
 
-    //    //if (other.gameObject.tag=="Enemy")
-    //    //{
-    //    //    animator.Play("Attack");
-    //    //}
-    //}
-
-
-    void Die()
+    private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag=="Player")
+        {
 
-       
-        //Destroy(this.gameObject);
-        AddHealth(20);
+            krakenAnimator.Play("death");
+        }
+               
+
+
+        //    //if (other.gameObject.tag=="Enemy")
+        //    //{
+        //    //    animator.Play("Attack");
+        //    //}
+        //}
+
+
+        
+  
     }
 
+    //    void Die()
+    //{
+
+
+    //    //Destroy(this.gameObject);
+    //    AddHealth(20);
 
     IEnumerator EnemySpawnTime()
     {

@@ -74,6 +74,7 @@ public class AC_Shooter : MonoBehaviour
         projectileInstance.AddForce(orbOrigin.forward * orbSpeed);
         Debug.Log("Cloned orb");
 
+        // You can add shader graph here 
 
 
     }
