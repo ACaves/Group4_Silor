@@ -19,7 +19,7 @@ public class ObjectFound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = " " + 1f;
+        score.text = "" + scoreValue;
 
         //if (scoreValue>=16f)
         //{

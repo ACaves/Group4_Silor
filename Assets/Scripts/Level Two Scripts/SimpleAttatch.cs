@@ -49,10 +49,10 @@ public class SimpleAttatch : MonoBehaviour
             hand.HoverUnlock(interactable);
             hiddenItem.SetActive(false);
 
-            if (hiddenItem.CompareTag("PickUp"))
-            {
-                ObjectFound.scoreValue += 1;
-            }
+            //if (hiddenItem.CompareTag("PickUp"))
+            //{
+            //    ObjectFound.scoreValue += 1;
+            //}
             
             ObjectFound.scoreValue += 1;
             //add item counter here
