@@ -16,6 +16,7 @@ public class PlayItemNearByAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            Debug.Log("player entered sound area");
             itemNearby.Play();
         }
     }
@@ -25,6 +26,7 @@ public class PlayItemNearByAudio : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            Debug.Log("player exited sound area");
             itemNearby.Stop();
         }
     }
