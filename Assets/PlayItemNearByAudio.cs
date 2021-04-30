@@ -12,22 +12,21 @@ public class PlayItemNearByAudio : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("player entered sound area");
-            itemNearby.Play();
-        }
-    }
+    //private void OnTriggerEnter(GameObject other)
+    //{
+    //    if (other.gameObject.tag=="Player")
+    //    {
+    //        Debug.Log("'Player entered Trigger");
+    //        itemNearby.Play();
+    //    }
+        
+        
+        
+    //}
 
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("player exited sound area");
-            itemNearby.Stop();
-        }
-    }
+    //private void OnTriggerExit(GameObject other)
+    //{
+    //    itemNearby.Stop();
+    //}
 }
