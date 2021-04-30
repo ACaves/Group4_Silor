@@ -86620,8 +86620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60.4, y: -38}
-  m_SizeDelta: {x: 1564.6028, y: 773.2453}
+  m_AnchoredPosition: {x: 25.1, y: 136.5}
+  m_SizeDelta: {x: 2329.2463, y: 1436.0037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3530460117061877751
 GameObject:
@@ -86695,7 +86695,11 @@ MonoBehaviour:
     is what the crystals look like...you can hear them chime so listen out
 
     they
-    could be hidden anywhere'
+    could be hidden anywhere.
+
+
+    Use the joystick to move and the trigger to pick
+    up objects.'
 --- !u!1001 &4311074235151279749
 PrefabInstance:
   m_ObjectHideFlags: 0

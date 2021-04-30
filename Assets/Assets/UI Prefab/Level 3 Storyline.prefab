@@ -29,13 +29,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1877519919337175026}
+  m_Father: {fileID: 1877519918496729284}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17.7, y: -7.2}
-  m_SizeDelta: {x: 690.7489, y: 356.75195}
+  m_AnchoredPosition: {x: 3.0999084, y: 3.499115}
+  m_SizeDelta: {x: 931.442, y: 487.7353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1877519918105435603
 CanvasRenderer:
@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6933962, g: 0.8898045, b: 1, a: 1}
+  m_Color: {r: 0.3773585, g: 0.0729797, b: 0.093343444, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -81,7 +81,8 @@ MonoBehaviour:
   m_Text: "R\xE1n the goddess of the sea used her net to swallow up an army on their
     voyage across the sea causing the fleet of voyagers to go missing in the sea.
     \n\nYou must find the lost armoury and weapons and recover what you can to avenge
-    the deaths of the voyagers.  \r\n"
+    the deaths of the voyagers.  \r\n\nUse the joystick to move\n and the trigger
+    to pick up items\n"
 --- !u!1 &1877519918496729287
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,12 +108,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877519918496729287}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1877519918105435613}
   m_Father: {fileID: 1877519919337175026}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -139,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: e18717a935056e74aa053ed230ebd7e4, type: 2}
   m_Color: {r: 0.008410462, g: 0.042040005, b: 0.1981132, a: 0.050980393}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -187,7 +189,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1877519918105435613}
   - {fileID: 1877519918496729284}
   m_Father: {fileID: 0}
   m_RootOrder: 0
