@@ -186,6 +186,19 @@ MonoBehaviour:
   onDetachedFromHand:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &3677391934991334855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219143425945205933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.045769166, y: 0.040217053, z: 0.0524468}
+  m_Center: {x: 0.0008043443, y: 0.011602015, z: -0.00031522106}
 --- !u!1001 &1138254127107555836
 PrefabInstance:
   m_ObjectHideFlags: 0

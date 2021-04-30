@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6418773293774706940}
   - component: {fileID: 5141449170701407647}
   - component: {fileID: 2783962423360393611}
-  - component: {fileID: 4749387604790809446}
   - component: {fileID: 842876683070379383}
-  - component: {fileID: 7137675663041303188}
+  - component: {fileID: 3031604471353090430}
+  - component: {fileID: 5151085895659381079}
   m_Layer: 0
   m_Name: Drawer_Big1
   m_TagString: Untagged
@@ -138,7 +138,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &5141449170701407647
@@ -172,20 +172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &4749387604790809446
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300032, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &842876683070379383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -202,7 +188,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7137675663041303188
+--- !u!65 &3031604471353090430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50247085, y: 0.6424002, z: 0.19740002}
+  m_Center: {x: 0.0019263063, y: 0.34749985, z: -0.5358592}
+--- !u!114 &5151085895659381079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,9 +228,9 @@ GameObject:
   - component: {fileID: 889485529138095846}
   - component: {fileID: 7242311798264782255}
   - component: {fileID: 5569627343588378071}
-  - component: {fileID: 6097262700880616032}
   - component: {fileID: 6406949634376324301}
-  - component: {fileID: 3668851067402757166}
+  - component: {fileID: 9001161934619176226}
+  - component: {fileID: 5344579424447455049}
   m_Layer: 0
   m_Name: Drawer1
   m_TagString: Untagged
@@ -352,7 +351,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &889485529138095846
@@ -438,20 +437,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &6097262700880616032
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127552}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300058, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &6406949634376324301
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -468,7 +453,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3668851067402757166
+--- !u!65 &9001161934619176226
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5074579, y: 0.29740006, z: 0.11740005}
+  m_Center: {x: -0.11563757, y: 0.0000000011161027, z: -0.00000005960465}
+--- !u!114 &5344579424447455049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -494,9 +492,9 @@ GameObject:
   - component: {fileID: 3398405937500149505}
   - component: {fileID: 9025575637100845723}
   - component: {fileID: 5324538034212673401}
-  - component: {fileID: 3822267395230958024}
   - component: {fileID: 6235639049768314676}
-  - component: {fileID: 6100818662925116567}
+  - component: {fileID: 3683218935346231003}
+  - component: {fileID: 4313672292062192051}
   m_Layer: 0
   m_Name: Drawer_Big2
   m_TagString: Untagged
@@ -618,7 +616,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &9025575637100845723
@@ -652,20 +650,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &3822267395230958024
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130962}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300054, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &6235639049768314676
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -682,7 +666,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6100818662925116567
+--- !u!65 &3683218935346231003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50667846, y: 0.6424002, z: 0.19740002}
+  m_Center: {x: 0.004030112, y: 0.34750032, z: -0.5358592}
+--- !u!114 &4313672292062192051
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -708,9 +705,9 @@ GameObject:
   - component: {fileID: 4100313928964437172}
   - component: {fileID: 3637347268003893612}
   - component: {fileID: 7585875818184722359}
-  - component: {fileID: 2855746493798492671}
   - component: {fileID: 6855719030285020060}
-  - component: {fileID: 1314642403508105005}
+  - component: {fileID: 9013959761438380994}
+  - component: {fileID: 6321152600671496885}
   m_Layer: 0
   m_Name: Drawer_Med2
   m_TagString: Untagged
@@ -832,7 +829,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &3637347268003893612
@@ -866,20 +863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &2855746493798492671
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143678}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300042, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &6855719030285020060
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -896,7 +879,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1314642403508105005
+--- !u!65 &9013959761438380994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49822256, y: 0.40740046, z: 0.14740005}
+  m_Center: {x: -0.11818437, y: -0.00000043958423, z: -0.000000018626455}
+--- !u!114 &6321152600671496885
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -922,9 +918,9 @@ GameObject:
   - component: {fileID: 3871009336914612836}
   - component: {fileID: 3883284223311964787}
   - component: {fileID: 8261086806746980975}
-  - component: {fileID: 5624641553272546848}
   - component: {fileID: 3984169150159582832}
-  - component: {fileID: 5744023588212624236}
+  - component: {fileID: 276599702981286420}
+  - component: {fileID: 8835804990248919212}
   m_Layer: 0
   m_Name: Drawer4
   m_TagString: Untagged
@@ -1063,7 +1059,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &8261086806746980975
@@ -1079,20 +1075,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &5624641553272546848
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300038, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &3984169150159582832
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1109,7 +1091,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5744023588212624236
+--- !u!65 &276599702981286420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5038988, y: 0.29740006, z: 0.11740005}
+  m_Center: {x: -0.11741713, y: -0.0000004759332, z: -0.0000000596046}
+--- !u!114 &8835804990248919212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1478,9 +1473,9 @@ GameObject:
   - component: {fileID: 7055392013163205674}
   - component: {fileID: 368789308897036410}
   - component: {fileID: 1542490693429033687}
-  - component: {fileID: 5837359382570317599}
   - component: {fileID: 1799769663847761247}
-  - component: {fileID: 1114193841296525487}
+  - component: {fileID: 2594009160615202378}
+  - component: {fileID: 7827978836587106958}
   m_Layer: 0
   m_Name: Drawer2
   m_TagString: Untagged
@@ -1601,7 +1596,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &7055392013163205674
@@ -1687,20 +1682,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &5837359382570317599
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170080}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300036, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &1799769663847761247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1717,7 +1698,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1114193841296525487
+--- !u!65 &2594009160615202378
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50993747, y: 0.29740006, z: 0.11740005}
+  m_Center: {x: -0.114397794, y: -0.00000047557327, z: 5.3441365e-14}
+--- !u!114 &7827978836587106958
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1915,9 +1909,9 @@ GameObject:
   - component: {fileID: 8635305935372031979}
   - component: {fileID: 4850122827624478944}
   - component: {fileID: 7793136174773626273}
-  - component: {fileID: 8242342822371725910}
   - component: {fileID: 5457488035325093493}
-  - component: {fileID: 6370088379160702295}
+  - component: {fileID: 1948864770044710209}
+  - component: {fileID: 2028440340151637092}
   m_Layer: 0
   m_Name: Drawer3
   m_TagString: Untagged
@@ -2038,7 +2032,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &8635305935372031979
@@ -2124,20 +2118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &8242342822371725910
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175038}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300040, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &5457488035325093493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2154,7 +2134,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6370088379160702295
+--- !u!65 &1948864770044710209
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50866145, y: 0.29740006, z: 0.11740005}
+  m_Center: {x: -0.1150358, y: -0.00000047564933, z: -0.0000000596046}
+--- !u!114 &2028440340151637092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2180,9 +2173,9 @@ GameObject:
   - component: {fileID: 5494816327487273842}
   - component: {fileID: 5592841138574838856}
   - component: {fileID: 2134307239629828021}
-  - component: {fileID: 1335805415492303530}
   - component: {fileID: 4489971976520159811}
-  - component: {fileID: 6203821266123812314}
+  - component: {fileID: 4932527239461849008}
+  - component: {fileID: 5238427405026726692}
   m_Layer: 0
   m_Name: Drawer_Med3
   m_TagString: Untagged
@@ -2304,7 +2297,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &5592841138574838856
@@ -2338,20 +2331,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &1335805415492303530
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181850}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300034, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &4489971976520159811
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2368,7 +2347,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6203821266123812314
+--- !u!65 &4932527239461849008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49822256, y: 0.40740046, z: 0.14740005}
+  m_Center: {x: -0.11818437, y: -0.00000043958423, z: -0.000000018626455}
+--- !u!114 &5238427405026726692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2877,9 +2869,9 @@ GameObject:
   - component: {fileID: 7719295404135188412}
   - component: {fileID: 4123423272400408445}
   - component: {fileID: 323952023660117019}
-  - component: {fileID: 2045861607973164551}
   - component: {fileID: 5379133555501217061}
-  - component: {fileID: 7961777214454228505}
+  - component: {fileID: 6468546240492238200}
+  - component: {fileID: 8894436560630353303}
   m_Layer: 0
   m_Name: Drawer_Med1
   m_TagString: Untagged
@@ -3001,7 +2993,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &4123423272400408445
@@ -3035,20 +3027,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
---- !u!64 &2045861607973164551
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197166}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300048, guid: 0ccd472cba226de41b565ef0ab256ed8, type: 3}
 --- !u!54 &5379133555501217061
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3065,7 +3043,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7961777214454228505
+--- !u!65 &6468546240492238200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49822256, y: 0.40740046, z: 0.14740005}
+  m_Center: {x: -0.11818437, y: 0.00000003725292, z: -0.000000018626455}
+--- !u!114 &8894436560630353303
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3086,7 +3077,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2722891889796676149}
-  - component: {fileID: 7460709927875350015}
   m_Layer: 0
   m_Name: EGO_drawer2
   m_TagString: Untagged
@@ -3111,18 +3101,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7460709927875350015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173121618971588153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &647825012888264665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3281,7 +3259,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1805258694491768440}
-  - component: {fileID: 5016676367456869351}
   m_Layer: 0
   m_Name: EGO_MedDrawer3
   m_TagString: Untagged
@@ -3306,18 +3283,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5016676367456869351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754527578275315438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &971900009044859115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3766,7 +3731,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8323854706151764553}
-  - component: {fileID: 2149064478636763840}
   m_Layer: 0
   m_Name: EGO_drawer01
   m_TagString: Untagged
@@ -3791,18 +3755,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2149064478636763840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900168182975678653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2053070481899687097
 GameObject:
   m_ObjectHideFlags: 0
@@ -5234,7 +5186,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3014054117163933633}
-  - component: {fileID: 1097251254692806321}
   m_Layer: 0
   m_Name: EGO_bigdrawer2
   m_TagString: Untagged
@@ -5259,18 +5210,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1097251254692806321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5582810801788284099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5591026560459473075
 GameObject:
   m_ObjectHideFlags: 0
@@ -6017,7 +5956,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4745907187355143352}
-  - component: {fileID: 1908771786524812214}
   m_Layer: 0
   m_Name: EGO_Drawer3
   m_TagString: Untagged
@@ -6042,18 +5980,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1908771786524812214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6679702459848740485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6711398109684284554
 GameObject:
   m_ObjectHideFlags: 0
@@ -6480,7 +6406,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3534249308881179222}
-  - component: {fileID: 2763983010692990696}
   m_Layer: 0
   m_Name: EGO_MedDrawer1
   m_TagString: Untagged
@@ -6505,18 +6430,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2763983010692990696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7421582729608480177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7596750337563038877
 GameObject:
   m_ObjectHideFlags: 0
@@ -6846,7 +6759,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 165335231956894486}
-  - component: {fileID: 3232378710103136359}
   m_Layer: 0
   m_Name: EGO_BigDrawer1
   m_TagString: Untagged
@@ -6871,18 +6783,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3232378710103136359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8095483554904884336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8299981873422637642
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,7 +6963,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6334328416965343251}
-  - component: {fileID: 5966602154607309714}
   m_Layer: 0
   m_Name: EGO_MedDrawer2
   m_TagString: Untagged
@@ -7088,18 +6987,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5966602154607309714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8361583616452987795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8385977322304418903
 GameObject:
   m_ObjectHideFlags: 0
@@ -7303,7 +7190,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9142868686174907326}
-  - component: {fileID: 871494663729122766}
   m_Layer: 0
   m_Name: EGO_Drawer4
   m_TagString: Untagged
@@ -7328,18 +7214,6 @@ Transform:
   m_Father: {fileID: 417992}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &871494663729122766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8725687292104573933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5bade1a564da4479dee4c581a7f2a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8789271632675109056
 GameObject:
   m_ObjectHideFlags: 0

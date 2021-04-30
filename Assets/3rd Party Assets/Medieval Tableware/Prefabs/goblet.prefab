@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4226046318442852}
   - component: {fileID: 33799762652902888}
   - component: {fileID: 23826563051480948}
+  - component: {fileID: 2370123848032472600}
   m_Layer: 0
   m_Name: goblet
   m_TagString: Untagged
@@ -81,3 +82,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2370123848032472600
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076265898605366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 297463f40a3415c4e87e18a6fa242459, type: 3}
