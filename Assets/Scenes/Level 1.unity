@@ -851,7 +851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1227305531}
-  backgroundAudio: {fileID: 0}
+  backgroundAudio: {fileID: 796372161}
 --- !u!1001 &79482685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7760,7 +7760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGlobal: 0
+  isGlobal: 1
   priority: 0
   blendDistance: 1
   weight: 1
