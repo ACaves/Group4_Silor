@@ -9,12 +9,30 @@ public class SimpleAttatch : MonoBehaviour
     private Interactable interactable;
     public GameObject hiddenItem;
     public AudioSource pickUpAudio;
+    public AudioSource itemNearBy;
+
+    public GameObject audioTrigger;
     // Start is called before the first frame update
     void Start()
     {
         pickUpAudio.GetComponent<AudioSource>();
         hiddenItem.SetActive(true);
         interactable = GetComponent<Interactable>();
+        itemNearBy.GetComponent<AudioSource>();
+
+    }
+
+
+    void update()
+    {
+        if (hiddenItem.activeInHierarchy==(true))
+        {
+            itemNearBy.Play();
+        }
+        else if (hiddenItem.activeInHierarchy==(false))
+        {
+            itemNearBy.Stop();
+        }
     }
 
     private void OnHandHoverBegin(Hand hand)
@@ -48,6 +66,12 @@ public class SimpleAttatch : MonoBehaviour
             hand.DetachObject(gameObject);
             hand.HoverUnlock(interactable);
             hiddenItem.SetActive(false);
+
+            //if (hiddenItem.CompareTag("PickUp"))
+            //{
+            //    ObjectFound.scoreValue += 1;
+            //}
+            Destroy(audioTrigger);
             ObjectFound.scoreValue += 1;
             //add item counter here
         }

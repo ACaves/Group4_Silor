@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4754892105889176}
   - component: {fileID: 33903917114710964}
   - component: {fileID: 23167052619837076}
+  - component: {fileID: 8999095657068484782}
   m_Layer: 0
   m_Name: Mod_SmallCrate02
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8999095657068484782
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727963584807176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 18f38c8bc57fcdb4b9642744fb2028be, type: 3}
 --- !u!1 &1831902070939854
 GameObject:
   m_ObjectHideFlags: 0
